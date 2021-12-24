@@ -1,0 +1,15 @@
+<section>
+    <div>
+        <div class="noticia_grid">
+            <h2>Notícias</h2>
+            <div class="noticia_cards">
+                <div *ngFor='let noticia of noticias'>
+                    <div class="cards">
+                        <h3>{{ noticia.titulo }}</h3>
+                        <p>{{ noticia.descricao }}</p>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

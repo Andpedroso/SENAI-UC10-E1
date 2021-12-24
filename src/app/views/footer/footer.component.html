@@ -1,0 +1,25 @@
+<footer>
+<div class="footer_geral">
+    <div class="first_collum">
+        <h1>Páginas</h1>
+        <a routerLink="hardware">Hardware</a>
+        <a routerLink="celulares">Celulares</a>
+        <a routerLink="jogos">Jogos</a>
+        <a routerLink="cadastro">Cadastro</a>
+    </div>
+    <div class="first_collum">
+        <h1>Suporte</h1>
+        <a href="https://www.mundosenai.com.br/">Senai</a>
+        <a href="https://www.google.com.br/">Google</a>
+        <a href="http://www.kojimaproductions.jp/en/">Hideo Kojima</a>
+        <a href="https://fonts.google.com/">Google Fonts</a>
+    </div>
+    <div class="first_collum">
+        <form #userForm="ngForm" (ngSubmit)="onSubmit()" >
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" [(ngModel)]="userModel.email">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</div>
+</footer>

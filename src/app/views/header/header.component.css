@@ -1,0 +1,22 @@
+
+header
+{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    
+}
+
+a 
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+img 
+{
+    height: 50px;
+}

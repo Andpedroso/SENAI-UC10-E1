@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+.noticia_grid 
+{
+    background-color: #CDE0Cd;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.noticia_grid h2 
+{
+    text-transform: uppercase;
+}
+
+.noticia_cards 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cards 
+{
+    width: 100px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #e1ede0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 20px;
+}

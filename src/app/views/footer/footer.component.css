@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+footer 
+{
+    background-color: black;
+}
+
+.footer_geral 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first_collum 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.first_collum a
+{
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.first_collum h1 
+{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+.first_collum label 
+{
+    color: white;
+    margin-right: 10px;
+    
+}
